@@ -10,4 +10,14 @@
             </expected>
         </service>
     </webMethodsTestCase>
+    <webMethodsTestCase name="TESTCASE2">
+        <service folder="zzNew.services" name="addInt">
+            <input>
+                <file/>
+            </input>
+            <expected>
+                <file/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
 </webMethodsTestSuite>
