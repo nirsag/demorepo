@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="" name="demoTestSuite">
+    <webMethodsTestCase name="test01">
+        <service folder="zzNew1.services" name="addInt">
+            <input>
+                <file filename="resources/test/xml/data/inp1.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/xml/data/out1.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
